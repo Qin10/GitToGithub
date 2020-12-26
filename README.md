@@ -21,6 +21,7 @@
     git status: 查看仓库状态<br/>
     git branch branchName: 创建分支(branchName为自定义的分支名)<br/>
     git checkout branchName: 进入到所创建的分支<br/>
+    git merge branchName: 将分支与master合并<br/>
     ......<br/>
 5、在github仓库主页左键单击**code下载按钮**复制**仓库链接**<br/>
 6、在命令行键入以下命令来在本地电脑**克隆github仓库**：<br/>
