@@ -11,17 +11,17 @@
     git config --global user.email 'yourEmail' (_yourEmail与github注册的邮箱相同_)<br/>
     PS：*由于Git是分布式版本控制系统，因此每个机器都必须“自报家门”*<br/>
 4、在命令行中键入：<br/>
-    ......
+    ......<br/>
     git init (_初始化git库，生成.git文件_)<br/>
-    git touch file: 新建文件
-    git add file: 向仓库添加文件
-    git add *.filetype: 向仓库添加某一类文件
-    git add .:向仓库添加所有文件
-    git rm --cached file: 移除仓库中的制定文件
-    git status: 查看仓库状态
-    git branch branchName: 创建分支(branchName为自定义的分支名)
-    git checkout branchName: 进入到所创建的分支
-    ......
+    git touch file: 新建文件<br/>
+    git add file: 向仓库添加文件<br/>
+    git add *.filetype: 向仓库添加某一类文件<br/>
+    git add .:向仓库添加所有文件<br/>
+    git rm --cached file: 移除仓库中的制定文件<br/>
+    git status: 查看仓库状态<br/>
+    git branch branchName: 创建分支(branchName为自定义的分支名)<br/>
+    git checkout branchName: 进入到所创建的分支<br/>
+    ......<br/>
 5、在github仓库主页左键单击**code下载按钮**复制**仓库链接**<br/>
 6、在命令行键入以下命令来在本地电脑**克隆github仓库**：<br/>
     git clone https://github.com/Qin10/GitToGithub.git (_可在命令行右键点击paste复制链接_)<br/>
