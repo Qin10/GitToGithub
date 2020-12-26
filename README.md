@@ -35,5 +35,7 @@
 10、在命令行键入：<br/>
     git commit -m 'description' (_将暂存区文件导入**git仓库**，单引号中添加操作说明_)<br/>
 11、在命令行键入：<br/>
+    git remote add origin https://github.com/Qin10/GitToGithub/edit/main/README.md (与远程仓库建立连接)
     git push (_将git仓库文件远程导入**github仓库**，若系统缓存没有保存用户登录信息，需要通过github验证_)<br/>
+    git push -u origin master (_若不想重新创建远程仓库再克隆，或者初始化本地仓库，可以使用此命令_)
 12、刷新github仓库主页，若出现用户添加文件信息则操作成功~<br/>
